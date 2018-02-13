@@ -1,0 +1,13 @@
+Pre-requisites:
+1. Mozilla Firefox
+2. Python Installation
+3. Geckodriver(included in the zip file)
+
+Instructions:
+1. First make sure you have all the prerequisites.
+2. To run the script, cd to the working directory and run
+	$ python scrape.py
+3. The script will automatically perform the scraping and output to the file output.csv 
+
+Time taken to scrape depending on your internet connection will be around 15-20 mins. This is because the bot is visiting around 500 links to get the titles. 
+Thanks, and enjoy!

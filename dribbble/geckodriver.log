@@ -1,0 +1,341 @@
+1516870968053	geckodriver	INFO	geckodriver 0.19.1
+1516870968056	geckodriver	INFO	Listening on 127.0.0.1:48515
+1516870969203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bNmLqeXEazU6"
+1516870969389	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516870969481	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516870969482	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516870969601	Marionette	INFO	Enabled via --marionette
+1516870970457	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516870970607	Marionette	INFO	Listening on port 34655
+1516870970626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516870970682	Marionette	DEBUG	Register listener.js for window 2147483649
+1516870970797	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516870973755	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516870973756	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516870994159	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871140152	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871140856	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+[Child 9435, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400C1,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1516871193425	geckodriver	INFO	geckodriver 0.19.1
+1516871193428	geckodriver	INFO	Listening on 127.0.0.1:48831
+1516871194578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qVZ1CdIwWCUt"
+1516871194778	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871194873	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871194874	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871194984	Marionette	INFO	Enabled via --marionette
+1516871195841	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871195995	Marionette	INFO	Listening on port 46395
+1516871196154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871196209	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871196237	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871209453	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871209453	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871238726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871243100	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871243393	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871248707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871253992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871259310	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871264615	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871269957	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871275281	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871280579	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 9931, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1516871316475	geckodriver	INFO	geckodriver 0.19.1
+1516871316478	geckodriver	INFO	Listening on 127.0.0.1:56977
+1516871317630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.L52yVKPOhx1n"
+1516871317829	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871317922	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871317923	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871318035	Marionette	INFO	Enabled via --marionette
+1516871318920	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871319217	Marionette	INFO	Listening on port 45899
+1516871319242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871319305	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871319337	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871320567	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871320568	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871331764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871338748	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+[Child 10234, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1516871351459	geckodriver	INFO	geckodriver 0.19.1
+1516871351462	geckodriver	INFO	Listening on 127.0.0.1:45433
+1516871352614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WzgGsvLftwcY"
+1516871352811	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871352904	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871352905	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871353015	Marionette	INFO	Enabled via --marionette
+1516871353886	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871354043	Marionette	INFO	Listening on port 34015
+1516871354204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871354262	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871354289	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871355350	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871355351	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871357845	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871363394	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871382612	geckodriver	INFO	geckodriver 0.19.1
+1516871382615	geckodriver	INFO	Listening on 127.0.0.1:37093
+1516871383764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hDv9eyuvfmiD"
+1516871383949	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871384043	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871384044	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871384165	Marionette	INFO	Enabled via --marionette
+1516871385055	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871385203	Marionette	INFO	Listening on port 40701
+1516871385385	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871385439	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871385478	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871386411	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871386412	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871388322	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871395389	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871395708	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871395988	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871396258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871396541	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871396822	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871397108	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871397407	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871397688	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871397965	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871398261	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871398557	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871398839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871399143	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871399450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871399745	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871400039	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871400347	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871400649	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871400965	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871401247	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871401549	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871401843	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871402139	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871402426	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871402726	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871403013	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871403320	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871403596	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871403891	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871404211	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871404508	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871404805	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871405092	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871405357	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871405639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871405944	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871406244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871406521	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871406792	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871407083	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871407365	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871407657	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871407956	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871408255	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871408528	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871408825	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871409127	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871409233	Marionette	DEBUG	Received DOM event "popstate" for "https://www.sslproxies.org/#"
+1516871409543	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871409827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871410115	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871410424	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871410710	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871411011	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871411312	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871411626	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871411893	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871412180	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871412473	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871412773	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871413078	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871413394	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871413671	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871413954	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871414241	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871414529	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871414832	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871415132	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871415425	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871415715	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871415998	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871416292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871416614	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871416902	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871417186	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871417460	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871417741	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871418022	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871418307	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871418594	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871418892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871419181	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871419480	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871419778	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871420079	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871420359	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871420641	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871420920	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871421193	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871421488	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871421761	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871422074	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871422373	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871422675	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871422957	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871423262	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871423556	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871423854	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871424132	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871424405	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871424678	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871424962	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871425240	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871425547	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871425829	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871426105	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871426388	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871426663	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871442972	geckodriver	INFO	geckodriver 0.19.1
+1516871442975	geckodriver	INFO	Listening on 127.0.0.1:55753
+1516871444134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zQYeNsgsnNLQ"
+1516871444332	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871444425	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871444426	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871444537	Marionette	INFO	Enabled via --marionette
+1516871445410	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871445572	Marionette	INFO	Listening on port 42263
+1516871445733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871445797	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871445837	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871446808	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871446809	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871448323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871454217	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871454507	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871454800	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871455100	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871455399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871455682	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871455989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871456280	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871456564	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871456854	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871457147	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871457437	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871457725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871458021	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871458309	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871458591	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871458887	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871459182	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871459479	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871459776	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871460083	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871460356	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871460637	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871460934	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871461238	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871461560	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871461835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871462106	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871462388	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1516871479328	geckodriver	INFO	geckodriver 0.19.1
+1516871479331	geckodriver	INFO	Listening on 127.0.0.1:41569
+1516871480481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7N8RPcuzMYZm"
+1516871480671	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871480764	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871480765	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871480884	Marionette	INFO	Enabled via --marionette
+1516871481752	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871481907	Marionette	INFO	Listening on port 42949
+1516871482080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871482135	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871482161	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871483182	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871483183	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871491171	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871494699	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871495028	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871495327	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871495633	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871495956	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871496258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871496556	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871496839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871497131	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871497423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871497710	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871498008	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871498293	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871498583	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871498867	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871499184	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871499466	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871499750	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 11202, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11202, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1516871541873	geckodriver	INFO	geckodriver 0.19.1
+1516871541876	geckodriver	INFO	Listening on 127.0.0.1:58955
+1516871543025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Kb5nPrGXI9ZM"
+1516871543219	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871543311	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871543312	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871543422	Marionette	INFO	Enabled via --marionette
+1516871544302	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871544455	Marionette	INFO	Listening on port 33063
+1516871544633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871544688	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871544717	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871545887	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871545888	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871547061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871548791	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871549133	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871549425	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871549742	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871550045	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871550335	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871550649	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871550960	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871551246	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871551544	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871551860	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871552166	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871552482	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871552799	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871553093	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871553388	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871553700	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871553976	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871554278	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871554575	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871587459	geckodriver	INFO	geckodriver 0.19.1
+1516871587462	geckodriver	INFO	Listening on 127.0.0.1:50367
+1516871588629	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.I4upLWUOUaDu"
+1516871588815	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871588909	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1516871588910	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1516871589035	Marionette	INFO	Enabled via --marionette
+1516871589925	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1516871590068	Marionette	INFO	Listening on port 41363
+1516871590240	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516871590297	Marionette	DEBUG	Register listener.js for window 2147483649
+1516871590335	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516871591576	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516871591576	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516871595217	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sslproxies.org/"
+1516871604587	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sslproxies.org/"
+1516871604948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871605238	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871605552	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871605847	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516871606152	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 11687, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

@@ -1,0 +1,26 @@
+1517411276501	geckodriver	INFO	geckodriver 0.19.1
+1517411276508	geckodriver	INFO	Listening on 127.0.0.1:39563
+1517411277687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5z6mJJwLQwU0"
+1517411277881	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1517411277973	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1517411277974	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1517411278105	Marionette	INFO	Enabled via --marionette
+1517411279046	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1517411279208	Marionette	INFO	Listening on port 39323
+1517411279381	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517411279437	Marionette	DEBUG	Register listener.js for window 2147483649
+1517411279465	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517411283634	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517411283634	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517411284855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sellercentral.amazon.com/ap/signin?openid.pape.max_auth_age=18000&openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fgp%2Fhomepage.html%3Fcor%3Dlogin_NA&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sc_na_amazon_v2&_encoding=UTF8&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=sc_na_amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.B6ZlmfKfjX9dpgoJZKBmvjYil9uhOzmjwchy09v0OtR4sr3ryqWVJg.KH_upmAxjJ1fnafo.LlflLp-K3VW0FSrhA7veF5FgMQm9Wg89bBpoLyVCXvZo24UrO20-_pKJO5rmtrq61r0JbksT8xK6CxeJsawafSYsbj7WtWMa9txSoFNS-6Ta31rdZwx-W1EC6DWosWXinQIqCHhsFSU7BeSHiSHhIdBY5OOpW2qe3iAKItUvt0M6hixQGrkFTnQ7uDnG4LjfR65iQP5es7fDir20_HQRqImJ98v01WQHynqD5RhWt_2RdkXJqV-Ce1Zq3JIFPFmmHrWc-A.Ia17AcBrZV_IAPq1htD4aw"
+1517411285582	Marionette	DEBUG	Received DOM event "pageshow" for "https://sellercentral.amazon.com/ap/signin?openid.pape.max_auth_age=18000&openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fgp%2Fhomepage.html%3Fcor%3Dlogin_NA&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sc_na_amazon_v2&_encoding=UTF8&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=sc_na_amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.B6ZlmfKfjX9dpgoJZKBmvjYil9uhOzmjwchy09v0OtR4sr3ryqWVJg.KH_upmAxjJ1fnafo.LlflLp-K3VW0FSrhA7veF5FgMQm9Wg89bBpoLyVCXvZo24UrO20-_pKJO5rmtrq61r0JbksT8xK6CxeJsawafSYsbj7WtWMa9txSoFNS-6Ta31rdZwx-W1EC6DWosWXinQIqCHhsFSU7BeSHiSHhIdBY5OOpW2qe3iAKItUvt0M6hixQGrkFTnQ7uDnG4LjfR65iQP5es7fDir20_HQRqImJ98v01WQHynqD5RhWt_2RdkXJqV-Ce1Zq3JIFPFmmHrWc-A.Ia17AcBrZV_IAPq1htD4aw"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

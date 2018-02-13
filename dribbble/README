@@ -1,0 +1,14 @@
+Prerequisites:
+1. First please read through this link and follow the instructions to fix the issue you had earlier.
+https://stackoverflow.com/questions/25757163/importing-requests-module-does-not-work
+2. Run the following commands one by one:
+  sudo pip install selenium
+  sudo pip install lxml
+  sudo pip install requests
+  sudo pip install certifi
+3. Then run
+  python create.py
+4. Then run
+  python login.py
+
+Thanks for the order, and enjoy!

@@ -1,0 +1,344 @@
+Airline,Airport,Serves,Nickname
+"Aeroméxico Connect","Guadalajara International Airport","Guadalajara, Jalisco",GDL
+"Aeroméxico Connect","Del Bajío International Airport","The State of Guanajuato including León's metropolitan area",BJX
+"Aeroméxico Connect","Mérida International Airport","Mérida",MID
+"Aeroméxico Connect","Monterrey International Airport","Monterrey, Nuevo Leon",MTY
+"Aeroméxico Connect","Querétaro Intercontinental Airport","Querétaro",QRO
+"Air Canada Express","Toronto Pearson International Airport","Greater Toronto Area",YYZ
+"Air France","Charles de Gaulle Airport","Paris",CDG
+"Air France","Pointe-à-Pitre International Airport","Pointe-à-Pitre",PTP
+"Alaska Airlines","Seattle–Tacoma International Airport","Seattle",SEA
+"Alaska Airlines","Portland International Airport","Portland metropolitan area",PDX
+"American Airlines","Charlotte Douglas International Airport","Charlotte metropolitan area",CLT
+"American Airlines","O'Hare International Airport","Chicago",ORD
+"American Airlines","Dallas/Fort Worth International Airport","Dallas–Fort Worth metroplex",DFW
+"American Airlines","Los Angeles International Airport","Greater Los Angeles Area",LAX
+"American Airlines","Miami International Airport","Greater Miami",MIA
+"American Airlines","LaGuardia Airport","New York metropolitan area",LGA
+"American Airlines","Philadelphia International Airport","Delaware Valley",PHL
+"American Airlines","Phoenix Sky Harbor International Airport","Phoenix metropolitan area",PHX
+"American Eagle","Charlotte Douglas International Airport","Charlotte metropolitan area",CLT
+"American Eagle","O'Hare International Airport","Chicago",ORD
+"American Eagle","Miami International Airport","Greater Miami",MIA
+"American Eagle","LaGuardia Airport","New York metropolitan area",LGA
+"American Eagle","Ronald Reagan Washington National Airport","Washington metropolitan area",DCA
+"Boutique Air","Northwest Alabama Regional Airport","Muscle Shoals, Alabama",MSL
+"British Airways","Heathrow Airport","London",LHR
+"Delta Air Lines","Akron–Canton Airport","Akron, Ohio",CAK
+"Delta Air Lines","Albany International Airport","Albany",ALB
+"Delta Air Lines","Albuquerque International Sunport","Albuquerque, New Mexico",ABQ
+"Delta Air Lines","Lehigh Valley International Airport","Lehigh Valley",ABE
+"Delta Air Lines","Amsterdam Airport Schiphol","Amsterdam",AMS
+"Delta Air Lines","Appleton International Airport","Appleton, Wisconsin",ATW
+"Delta Air Lines","Queen Beatrix International Airport","Appleton, Wisconsin",AUA
+"Delta Air Lines","Asheville Regional Airport","Asheville, North Carolina",AVL
+"Delta Air Lines","Augusta Regional Airport","Augusta, Georgia",AGS
+"Delta Air Lines","Austin–Bergstrom International Airport","Greater Austin",AUS
+"Delta Air Lines","Baltimore–Washington International Airport","Baltimore–Washington metropolitan area",BWI
+"Delta Air Lines","Baton Rouge Metropolitan Airport","Baton Rouge, Louisiana",BTR
+"Delta Air Lines","Philip S. W. Goldson International Airport","Belize City",BZE
+"Delta Air Lines","L.F. Wade International Airport","Bermuda",BDA
+"Delta Air Lines","Birmingham–Shuttlesworth International Airport","Birmingham, Alabama",BHM
+"Delta Air Lines","El Dorado International Airport","Birmingham, Alabama",BOG
+"Delta Air Lines","Flamingo International Airport","Bonaire",BON
+"Delta Air Lines","Logan International Airport","Boston",BOS
+"Delta Air Lines","Brussels Airport","Brussels",BRU
+"Delta Air Lines","Ministro Pistarini International Airport","Buenos Aires",EZE
+"Delta Air Lines","Buffalo Niagara International Airport","Buffalo metropolitan area",BUF
+"Delta Air Lines","Cancún International Airport","Cancún",CUN
+"Delta Air Lines","Rafael Núñez International Airport","Cartagena, Colombia",CTG
+"Delta Air Lines","The Eastern Iowa Airport","Cedar Rapids",CID
+"Delta Air Lines","Charleston International Airport","Cedar Rapids",CHS
+"Delta Air Lines","Yeager Airport","Charleston, West Virginia",CRW
+"Delta Air Lines","Charlotte Douglas International Airport","Charlotte metropolitan area",CLT
+"Delta Air Lines","Charlottesville–Albemarle Airport","Charlottesville, Virginia",CHO
+"Delta Air Lines","Chattanooga Metropolitan Airport","Chattanooga, Tennessee",CHA
+"Delta Air Lines","Midway International Airport","Chicago",MDW
+"Delta Air Lines","O'Hare International Airport","Chicago",ORD
+"Delta Air Lines","Cincinnati/Northern Kentucky International Airport","Cincinnati",CVG
+"Delta Air Lines","Cleveland Hopkins International Airport","Cleveland",CLE
+"Delta Air Lines","Colorado Springs Airport","Colorado Springs, Colorado",COS
+"Delta Air Lines","Columbia Metropolitan Airport","Columbia, South Carolina",CAE
+"Delta Air Lines","John Glenn Columbus International Airport","Columbia, South Carolina",CMH
+"Delta Air Lines","Cozumel International Airport","Columbia, South Carolina",CZM
+"Delta Air Lines","Dallas Love Field","Dallas–Fort Worth–Arlington",DAL
+"Delta Air Lines","Dallas/Fort Worth International Airport","Dallas–Fort Worth metroplex",DFW
+"Delta Air Lines","Dayton International Airport","Dallas–Fort Worth metroplex",DAY
+"Delta Air Lines","Daytona Beach International Airport","Daytona Beach",DAB
+"Delta Air Lines","Denver International Airport","Denver",DEN
+"Delta Air Lines","Des Moines International Airport","Des Moines, Iowa",DSM
+"Delta Air Lines","Detroit Metropolitan Airport","Detroit",DTW
+"Delta Air Lines","Düsseldorf Airport","Düsseldorf",DUS
+"Delta Air Lines","El Paso International Airport","El Paso, Texas",ELP
+"Delta Air Lines","Evansville Regional Airport","Evansville, Indiana",EVV
+"Delta Air Lines","Northwest Arkansas Regional Airport","Northwest Arkansas",XNA
+"Delta Air Lines","Fayetteville Regional Airport","North Carolina",FAY
+"Delta Air Lines","Bishop International Airport","Flint, Michigan",FNT
+"Delta Air Lines","Fort Lauderdale–Hollywood International Airport","Greater Miami",FLL
+"Delta Air Lines","Southwest Florida International Airport","Fort Myers",RSW
+"Delta Air Lines","Destin–Fort Walton Beach Airport","Fort Walton Beach",VPS
+"Delta Air Lines","Frankfurt Airport","Frankfurt",FRA
+"Delta Air Lines","Gainesville Regional Airport","Gainesville, Florida",GNV
+"Delta Air Lines","Exuma International Airport","Great Exuma",GGT
+"Delta Air Lines","Owen Roberts International Airport","Great Exuma",GCM
+"Delta Air Lines","Gerald R. Ford International Airport","Grand Rapids, Michigan",GRR
+"Delta Air Lines","Piedmont Triad International Airport","Greensboro, High Point, and Winston-Salem, North Carolina",GSO
+"Delta Air Lines","Greenville–Spartanburg International Airport","Upstate South Carolina",GSP
+"Delta Air Lines","Guadalajara International Airport","Guadalajara, Jalisco",GDL
+"Delta Air Lines","La Aurora International Airport","Guatemala City",GUA
+"Delta Air Lines","Gulfport–Biloxi International Airport","Gulfport–Biloxi metropolitan area",GPT
+"Delta Air Lines","Harrisburg International Airport","Harrisburg, Pennsylvania",MDT
+"Delta Air Lines","Bradley International Airport","Hartford County, Connecticut",BDL
+"Delta Air Lines","José Martí International Airport","Havana",HAV
+"Delta Air Lines","Daniel K. Inouye International Airport","Honolulu",HNL
+"Delta Air Lines","William P. Hobby Airport","Houston–The Woodlands–Sugar Land",HOU
+"Delta Air Lines","George Bush Intercontinental Airport","Greater Houston",IAH
+"Delta Air Lines","Huntsville International Airport","Huntsville, Alabama",HSV
+"Delta Air Lines","Indianapolis International Airport","Indianapolis, Indiana",IND
+"Delta Air Lines","Jackson–Medgar Wiley Evers International Airport","Jackson, Mississippi",JAN
+"Delta Air Lines","Jacksonville International Airport","Jacksonville metropolitan area",JAX
+"Delta Air Lines","O. R. Tambo International Airport","Johannesburg",JNB
+"Delta Air Lines","Kansas City International Airport","Kansas City metropolitan area",MCI
+"Delta Air Lines","Key West International Airport","Key West, Florida",EYW
+"Delta Air Lines","Norman Manley International Airport","Kingston",KIN
+"Delta Air Lines","McGhee Tyson Airport","Knoxville, Tennessee",TYS
+"Delta Air Lines","Lafayette Regional Airport","Lafayette, Louisiana",LFT
+"Delta Air Lines","Murtala Muhammed International Airport","Ikeja",LOS
+"Delta Air Lines","McCarran International Airport","Las Vegas Valley",LAS
+"Delta Air Lines","Blue Grass Airport","Lexington",LEX
+"Delta Air Lines","Daniel Oduber Quirós International Airport","Lexington",LIR
+"Delta Air Lines","Jorge Chávez International Airport","Lima",LIM
+"Delta Air Lines","Clinton National Airport","Little Rock",LIT
+"Delta Air Lines","Heathrow Airport","London",LHR
+"Delta Air Lines","Los Angeles International Airport","Greater Los Angeles Area",LAX
+"Delta Air Lines","Louisville International Airport","Louisville, Kentucky",SDF
+"Delta Air Lines","Dane County Regional Airport","Madison, Wisconsin",MSN
+"Delta Air Lines","Adolfo Suárez Madrid–Barajas Airport","Madrid",MAD
+"Delta Air Lines","Augusto C. Sandino International Airport","Managua",MGA
+"Delta Air Lines","Manchester–Boston Regional Airport","Manchester, New Hampshire",MHT
+"Delta Air Lines","Orlando Melbourne International Airport","Melbourne",MLB
+"Delta Air Lines","Memphis International Airport","Memphis, Tennessee",MEM
+"Delta Air Lines","Mexico City International Airport","Mexico City, Mexico",ME1
+"Delta Air Lines","Miami International Airport","Greater Miami",MIA
+"Delta Air Lines","General Mitchell International Airport","Milwaukee",MKE
+"Delta Air Lines","Minneapolis–Saint Paul International Airport","Minneapolis",MSP
+"Delta Air Lines","Mobile Regional Airport","Mobile, Alabama",MOB
+"Delta Air Lines","Sangster International Airport","Montego Bay",MBJ
+"Delta Air Lines","Monterrey International Airport","Monterrey, Nuevo Leon",MTY
+"Delta Air Lines","Munich Airport","Munich",MUC
+"Delta Air Lines","Nashville International Airport","Nashville, Tennessee",BNA
+"Delta Air Lines","Lynden Pindling International Airport","Nassau",NAS
+"Delta Air Lines","Newark Liberty International Airport","New Jersey",EWR
+"Delta Air Lines","Louis Armstrong New Orleans International Airport","New Orleans",MSY
+"Delta Air Lines","Newport News/Williamsburg International Airport","Virginia Peninsula",PHF
+"Delta Air Lines","John F. Kennedy International Airport","New York metropolitan area",JFK
+"Delta Air Lines","LaGuardia Airport","New York metropolitan area",LGA
+"Delta Air Lines","Norfolk International Airport","Hampton Roads",ORF
+"Delta Air Lines","Will Rogers World Airport","Oklahoma City",OKC
+"Delta Air Lines","Eppley Airfield","Eastern Nebraska and Western Iowa",OMA
+"Delta Air Lines","John Wayne Airport","Orange County, California",SNA
+"Delta Air Lines","Orlando International Airport","Orlando, Florida",MCO
+"Delta Air Lines","Northwest Florida Beaches International Airport","Panama City",ECP
+"Delta Air Lines","Tocumen International Airport","Panama City",PTY
+"Delta Air Lines","Charles de Gaulle Airport","Paris",CDG
+"Delta Air Lines","Pensacola International Airport","Pensacola, Florida",PNS
+"Delta Air Lines","Philadelphia International Airport","Delaware Valley",PHL
+"Delta Air Lines","Phoenix Sky Harbor International Airport","Phoenix metropolitan area",PHX
+"Delta Air Lines","Pittsburgh International Airport","Pittsburgh, Pennsylvania",PIT
+"Delta Air Lines","Toussaint Louverture International Airport","Port-au-Prince",PAP
+"Delta Air Lines","Portland International Jetport","Portland, Maine",PWM
+"Delta Air Lines","Portland International Airport","Portland metropolitan area",PDX
+"Delta Air Lines","T. F. Green Airport","Providence",PVD
+"Delta Air Lines","Providenciales International Airport","Providence",PLS
+"Delta Air Lines","Licenciado Gustavo Díaz Ordaz International Airport","Puerto Vallarta and Riviera Nayarit",PVR
+"Delta Air Lines","Punta Cana International Airport","Punta Cana, Higuey",PUJ
+"Delta Air Lines","Mariscal Sucre International Airport","Quito",UIO
+"Delta Air Lines","Raleigh–Durham International Airport","Research Triangle Metropolitan Region",RDU
+"Delta Air Lines","Richmond International Airport","Central Virginia",RIC
+"Delta Air Lines","Rio de Janeiro–Galeão International Airport","Rio de Janeiro",GIG
+"Delta Air Lines","Roanoke–Blacksburg Regional Airport","Roanoke Valley",ROA
+"Delta Air Lines","Juan Manuel Gálvez International Airport","Roanoke Valley",RTB
+"Delta Air Lines","Greater Rochester International Airport","Rochester, New York",ROC
+"Delta Air Lines","Leonardo da Vinci–Fiumicino Airport","Rome",FCO
+"Delta Air Lines","Sacramento International Airport","Sacramento, California",SMF
+"Delta Air Lines","St. Louis Lambert International Airport","Greater St. Louis",STL
+"Delta Air Lines","Hewanorra International Airport","Greater St. Louis",UVF
+"Delta Air Lines","Princess Juliana International Airport","Greater St. Louis",SXM
+"Delta Air Lines","Cyril E. King Airport","Greater St. Louis",STT
+"Delta Air Lines","Salt Lake City International Airport","Utah",SLC
+"Delta Air Lines","San Antonio International Airport","Greater San Antonio",SAT
+"Delta Air Lines","San Diego International Airport","Greater San Diego",SAN
+"Delta Air Lines","San Francisco International Airport","San Francisco Bay Area",SFO
+"Delta Air Lines","San Jose International Airport","Santa Clara County",SJC
+"Delta Air Lines","Juan Santamaría International Airport","San José, Costa Rica",SJO
+"Delta Air Lines","Los Cabos International Airport","Los Cabos",SJD
+"Delta Air Lines","Luis Muñoz Marín International Airport","San Juan, Puerto Rico",SJU
+"Delta Air Lines","Ramón Villeda Morales International Airport","San Pedro Sula",SAP
+"Delta Air Lines","Monseñor Óscar Arnulfo Romero International Airport","El Salvador",SAL
+"Delta Air Lines","Comodoro Arturo Merino Benítez International Airport","Santiago",SCL
+"Delta Air Lines","Cibao International Airport","Santiago de los Caballeros",STI
+"Delta Air Lines","Las Américas International Airport","Santo Domingo",SDQ
+"Delta Air Lines","São Paulo–Guarulhos International Airport","São Paulo",GRU
+"Delta Air Lines","Sarasota–Bradenton International Airport","Sarasota",SRQ
+"Delta Air Lines","Savannah/Hilton Head International Airport","Savannah, Georgia",SAV
+"Delta Air Lines","Seattle–Tacoma International Airport","Seattle",SEA
+"Delta Air Lines","Incheon International Airport","Seoul Metro Area",ICN
+"Delta Air Lines","Shanghai Pudong International Airport","Shanghai",PVG
+"Delta Connection","Southwest Georgia Regional Airport","Albany, Georgia",ABY
+"Delta Connection","Alexandria International Airport (Louisiana)","Alexandria, Louisiana",AEX
+"Delta Connection","Lehigh Valley International Airport","Lehigh Valley",ABE
+"Delta Connection","Appleton International Airport","Appleton, Wisconsin",ATW
+"Delta Connection","Asheville Regional Airport","Asheville, North Carolina",AVL
+"Delta Connection","Augusta Regional Airport","Augusta, Georgia",AGS
+"Delta Connection","Baton Rouge Metropolitan Airport","Baton Rouge, Louisiana",BTR
+"Delta Connection","Central Illinois Regional Airport","Bloomington",BMI
+"Delta Connection","Brunswick Golden Isles Airport","Brunswick, Georgia",BQK
+"Delta Connection","Burlington International Airport","Burlington, Vermont",BTV
+"Delta Connection","The Eastern Iowa Airport","Cedar Rapids",CID
+"Delta Connection","Yeager Airport","Charleston, West Virginia",CRW
+"Delta Connection","Charlottesville–Albemarle Airport","Charlottesville, Virginia",CHO
+"Delta Connection","Chattanooga Metropolitan Airport","Chattanooga, Tennessee",CHA
+"Delta Connection","Columbia Metropolitan Airport","Columbia, South Carolina",CAE
+"Delta Connection","Columbus Metropolitan Airport","Columbus, Georgia",CSG
+"Delta Connection","Golden Triangle Regional Airport","Columbus",GTR
+"Delta Connection","Dothan Regional Airport","Dothan",DHN
+"Delta Connection","Evansville Regional Airport","Evansville, Indiana",EVV
+"Delta Connection","Northwest Arkansas Regional Airport","Northwest Arkansas",XNA
+"Delta Connection","Fayetteville Regional Airport","North Carolina",FAY
+"Delta Connection","Fort Smith Regional Airport","Fort Smith, Arkansas",FSM
+"Delta Connection","Destin–Fort Walton Beach Airport","Fort Walton Beach",VPS
+"Delta Connection","Fort Wayne International Airport","Fort Wayne, Indiana",FWA
+"Delta Connection","Grand Bahama International Airport","Fort Wayne, Indiana",FPO
+"Delta Connection","Gainesville Regional Airport","Gainesville, Florida",GNV
+"Delta Connection","Exuma International Airport","Great Exuma",GGT
+"Delta Connection","Green Bay–Austin Straubel International Airport","Green Bay, Wisconsin",GRB
+"Delta Connection","Piedmont Triad International Airport","Greensboro, High Point, and Winston-Salem, North Carolina",GSO
+"Delta Connection","Greenville–Spartanburg International Airport","Upstate South Carolina",GSP
+"Delta Connection","Gulfport–Biloxi International Airport","Gulfport–Biloxi metropolitan area",GPT
+"Delta Connection","George Bush Intercontinental Airport","Greater Houston",IAH
+"Delta Connection","Huntsville International Airport","Huntsville, Alabama",HSV
+"Delta Connection","Jackson–Medgar Wiley Evers International Airport","Jackson, Mississippi",JAN
+"Delta Connection","Albert J. Ellis Airport","Jacksonville, North Carolina",OAJ
+"Delta Connection","Key West International Airport","Key West, Florida",EYW
+"Delta Connection","McGhee Tyson Airport","Knoxville, Tennessee",TYS
+"Delta Connection","Lafayette Regional Airport","Lafayette, Louisiana",LFT
+"Delta Connection","Blue Grass Airport","Lexington",LEX
+"Delta Connection","Lincoln Airport (Nebraska)","Southeastern and central Nebraska",LNK
+"Delta Connection","Dane County Regional Airport","Madison, Wisconsin",MSN
+"Delta Connection","Mobile Regional Airport","Mobile, Alabama",MOB
+"Delta Connection","Quad City International Airport","Quad Cities, Eastern Iowa, Western Illinois",MLI
+"Delta Connection","Monroe Regional Airport (Louisiana)","Monroe, Louisiana",MLU
+"Delta Connection","Montgomery Regional Airport","Montgomery, Alabama",MGM
+"Delta Connection","Montréal–Pierre Elliott Trudeau International Airport","Greater Montreal",YUL
+"Delta Connection","Myrtle Beach International Airport","Myrtle Beach, South Carolina",MYR
+"Delta Connection","Coastal Carolina Regional Airport","Craven County",EWN
+"Delta Connection","Newport News/Williamsburg International Airport","Virginia Peninsula",PHF
+"Delta Connection","Eppley Airfield","Eastern Nebraska and Western Iowa",OMA
+"Delta Connection","General Wayne A. Downing Peoria International Airport","Peoria, Illinois",PIA
+"Delta Connection","Providenciales International Airport","Peoria, Illinois",PLS
+"Delta Connection","Roanoke–Blacksburg Regional Airport","Roanoke Valley",ROA
+"Delta Connection","Rochester International Airport","Roanoke Valley",RST
+"Delta Connection","Shreveport Regional Airport","Shreveport and Bossier City",SHV
+"Delta Connection","Sioux Falls Regional Airport","Sioux Falls, South Dakota",FSD
+"Delta Connection","South Bend International Airport","South Bend, Indiana",SBN
+"Delta Connection","Springfield–Branson National Airport","Springfield",SGF
+"Delta Connection","Tallahassee International Airport","Tallahassee, Florida",TLH
+"Delta Connection","Toronto Pearson International Airport","Greater Toronto Area",YYZ
+"Delta Connection","Tri-Cities Regional Airport","Tri-Cities, Tennessee",TRI
+"Delta Connection","Tulsa International Airport","Tulsa and the surrounding areas",TUL
+"Delta Connection","Valdosta Regional Airport","Valdosta, Georgia",VLD
+"Delta Connection","Westchester County Airport","Westchester County, New York",HPN
+"Delta Connection","Wilmington International Airport","Wilmington, North Carolina",ILM
+"Delta Connection","Aspen–Pitkin County Airport","Aspen, Colorado",ASE
+"Delta Connection","Elmira Corning Regional Airport","Elmira, New York",ELM
+"Delta Connection","Hector International Airport","Fargo, North Dakota",FAR
+"Delta Connection","Marsh Harbour Airport","Marsh Harbour",MHH
+"Delta Connection","Orlando Melbourne International Airport","Melbourne",MLB
+"Delta Connection","North Eleuthera Airport","Melbourne",ELH
+"Delta Connection","Rapid City Regional Airport","Rapid City, South Dakota",RAP
+"Delta Connection","Cherry Capital Airport","Traverse City, Michigan",TVC
+"Frontier Airlines","Denver International Airport","Denver",DEN
+"Frontier Airlines","McCarran International Airport","Las Vegas Valley",LAS
+"Frontier Airlines","Los Angeles International Airport","Greater Los Angeles Area",LAX
+"Frontier Airlines","LaGuardia Airport","New York metropolitan area",LGA
+"Frontier Airlines","Salt Lake City International Airport","Utah",SLC
+"Frontier Airlines","San Francisco International Airport","San Francisco Bay Area",SFO
+"Frontier Airlines","San Jose International Airport","Santa Clara County",SJC
+"JetBlue Airways","Logan International Airport","Boston",BOS
+"JetBlue Airways","Fort Lauderdale–Hollywood International Airport","Greater Miami",FLL
+"KLM","Amsterdam Airport Schiphol","Amsterdam",AMS
+"Korean Air","Incheon International Airport","Seoul Metro Area",ICN
+"Lufthansa","Frankfurt Airport","Frankfurt",FRA
+"Qatar Airways","Hamad International Airport","Doha",DOH
+"Southwest Airlines","Austin–Bergstrom International Airport","Greater Austin",AUS
+"Southwest Airlines","Baltimore–Washington International Airport","Baltimore–Washington metropolitan area",BWI
+"Southwest Airlines","Logan International Airport","Boston",BOS
+"Southwest Airlines","Cancún International Airport","Cancún",CUN
+"Southwest Airlines","Midway International Airport","Chicago",MDW
+"Southwest Airlines","Cleveland Hopkins International Airport","Cleveland",CLE
+"Southwest Airlines","John Glenn Columbus International Airport","Cleveland",CMH
+"Southwest Airlines","Dallas Love Field","Dallas–Fort Worth–Arlington",DAL
+"Southwest Airlines","Denver International Airport","Denver",DEN
+"Southwest Airlines","Detroit Metropolitan Airport","Detroit",DTW
+"Southwest Airlines","Fort Lauderdale–Hollywood International Airport","Greater Miami",FLL
+"Southwest Airlines","Southwest Florida International Airport","Fort Myers",RSW
+"Southwest Airlines","Greenville–Spartanburg International Airport","Upstate South Carolina",GSP
+"Southwest Airlines","William P. Hobby Airport","Houston–The Woodlands–Sugar Land",HOU
+"Southwest Airlines","Indianapolis International Airport","Indianapolis, Indiana",IND
+"Southwest Airlines","Jacksonville International Airport","Jacksonville metropolitan area",JAX
+"Southwest Airlines","Kansas City International Airport","Kansas City metropolitan area",MCI
+"Southwest Airlines","McCarran International Airport","Las Vegas Valley",LAS
+"Southwest Airlines","Los Angeles International Airport","Greater Los Angeles Area",LAX
+"Southwest Airlines","General Mitchell International Airport","Milwaukee",MKE
+"Southwest Airlines","Minneapolis–Saint Paul International Airport","Minneapolis",MSP
+"Southwest Airlines","Louis Armstrong New Orleans International Airport","New Orleans",MSY
+"Southwest Airlines","LaGuardia Airport","New York metropolitan area",LGA
+"Southwest Airlines","Oakland International Airport","Bay Area",OAK
+"Southwest Airlines","Orlando International Airport","Orlando, Florida",MCO
+"Southwest Airlines","Philadelphia International Airport","Delaware Valley",PHL
+"Southwest Airlines","Pittsburgh International Airport","Pittsburgh, Pennsylvania",PIT
+"Southwest Airlines","Phoenix Sky Harbor International Airport","Phoenix metropolitan area",PHX
+"Southwest Airlines","Punta Cana International Airport","Punta Cana, Higuey",PUJ
+"Southwest Airlines","Raleigh–Durham International Airport","Research Triangle Metropolitan Region",RDU
+"Southwest Airlines","Richmond International Airport","Central Virginia",RIC
+"Southwest Airlines","St. Louis Lambert International Airport","Greater St. Louis",STL
+"Southwest Airlines","San Antonio International Airport","Greater San Antonio",SAT
+"Southwest Airlines","San Diego International Airport","Greater San Diego",SAN
+"Southwest Airlines","Tampa International Airport","Tampa Bay Area",TPA
+"Southwest Airlines","Washington Dulles International Airport","Washington metropolitan area",IAD
+"Southwest Airlines","Ronald Reagan Washington National Airport","Washington metropolitan area",DCA
+"Southwest Airlines","Palm Beach International Airport","Palm Beach County",PBI
+"Southwest Airlines","Seattle–Tacoma International Airport","Seattle",SEA
+"Spirit Airlines","Baltimore–Washington International Airport","Baltimore–Washington metropolitan area",BWI
+"Spirit Airlines","Logan International Airport","Boston",BOS
+"Spirit Airlines","O'Hare International Airport","Chicago",ORD
+"Spirit Airlines","Cleveland Hopkins International Airport","Cleveland",CLE
+"Spirit Airlines","Dallas/Fort Worth International Airport","Dallas–Fort Worth metroplex",DFW
+"Spirit Airlines","Detroit Metropolitan Airport","Detroit",DTW
+"Spirit Airlines","Fort Lauderdale–Hollywood International Airport","Greater Miami",FLL
+"Spirit Airlines","George Bush Intercontinental Airport","Greater Houston",IAH
+"Spirit Airlines","McCarran International Airport","Las Vegas Valley",LAS
+"Spirit Airlines","Los Angeles International Airport","Greater Los Angeles Area",LAX
+"Spirit Airlines","Minneapolis–Saint Paul International Airport","Minneapolis",MSP
+"Spirit Airlines","Louis Armstrong New Orleans International Airport","New Orleans",MSY
+"Spirit Airlines","Orlando International Airport","Orlando, Florida",MCO
+"Spirit Airlines","Philadelphia International Airport","Delaware Valley",PHL
+"Spirit Airlines","Tampa International Airport","Tampa Bay Area",TPA
+"Spirit Airlines","Atlantic City International Airport","Atlantic City, New Jersey",ACY
+"Spirit Airlines","Southwest Florida International Airport","Fort Myers",RSW
+"Turkish Airlines","Istanbul Atatürk Airport","Istanbul",IST
+"United Airlines","O'Hare International Airport","Chicago",ORD
+"United Airlines","Denver International Airport","Denver",DEN
+"United Airlines","George Bush Intercontinental Airport","Greater Houston",IAH
+"United Airlines","Newark Liberty International Airport","New Jersey",EWR
+"United Airlines","San Francisco International Airport","San Francisco Bay Area",SFO
+"United Airlines","Washington Dulles International Airport","Washington metropolitan area",IAD
+"United Express","O'Hare International Airport","Chicago",ORD
+"United Express","Denver International Airport","Denver",DEN
+"United Express","George Bush Intercontinental Airport","Greater Houston",IAH
+"United Express","Newark Liberty International Airport","New Jersey",EWR
+"United Express","Washington Dulles International Airport","Washington metropolitan area",IAD
+"Vacation Express","Sangster International Airport","Montego Bay",MBJ
+"Vacation Express","Punta Cana International Airport","Punta Cana, Higuey",PUJ
+"Virgin Atlantic","Heathrow Airport","London",LHR
+"Virgin Atlantic","Manchester Airport","Greater Manchester",MAN

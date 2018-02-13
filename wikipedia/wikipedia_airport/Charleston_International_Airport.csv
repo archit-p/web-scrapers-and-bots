@@ -1,0 +1,42 @@
+Airline,Airport,Serves,Nickname
+"Alaska Airlines","Seattle–Tacoma International Airport","Seattle",SEA,Charleston International Airport,CHS
+"Allegiant Air","Cincinnati/Northern Kentucky International Airport","Cincinnati",CVG,Charleston International Airport,CHS
+"Allegiant Air","Indianapolis International Airport","Indianapolis, Indiana",IND,Charleston International Airport,CHS
+"Allegiant Air","Pittsburgh International Airport","Pittsburgh, Pennsylvania",PIT,Charleston International Airport,CHS
+"American Airlines","Charlotte Douglas International Airport","Charlotte metropolitan area",CLT,Charleston International Airport,CHS
+"American Airlines","Dallas/Fort Worth International Airport","Dallas–Fort Worth metroplex",DFW,Charleston International Airport,CHS
+"American Eagle","Charlotte Douglas International Airport","Charlotte metropolitan area",CLT,Charleston International Airport,CHS
+"American Eagle","Dallas/Fort Worth International Airport","Dallas–Fort Worth metroplex",DFW,Charleston International Airport,CHS
+"American Eagle","Miami International Airport","Greater Miami",MIA,Charleston International Airport,CHS
+"American Eagle","Philadelphia International Airport","Delaware Valley",PHL,Charleston International Airport,CHS
+"American Eagle","Ronald Reagan Washington National Airport","Washington metropolitan area",DCA,Charleston International Airport,CHS
+"American Eagle","O'Hare International Airport","Chicago",ORD,Charleston International Airport,CHS
+"Delta Air Lines","Hartsfield–Jackson Atlanta International Airport","Atlanta",ATL,Charleston International Airport,CHS
+"Delta Air Lines","John F. Kennedy International Airport","New York metropolitan area",JFK,Charleston International Airport,CHS
+"Delta Air Lines","Detroit Metropolitan Airport","Detroit",DTW,Charleston International Airport,CHS
+"Delta Connection","LaGuardia Airport","New York metropolitan area",LGA,Charleston International Airport,CHS
+"Delta Connection","Logan International Airport","Boston",BOS,Charleston International Airport,CHS
+"Delta Connection","Detroit Metropolitan Airport","Detroit",DTW,Charleston International Airport,CHS
+"Delta Connection","John F. Kennedy International Airport","New York metropolitan area",JFK,Charleston International Airport,CHS
+"Frontier Airlines","Denver International Airport","Denver",DEN,Charleston International Airport,CHS
+"Frontier Airlines","O'Hare International Airport","Chicago",ORD,Charleston International Airport,CHS
+"Frontier Airlines","Philadelphia International Airport","Delaware Valley",PHL,Charleston International Airport,CHS
+"JetBlue Airways","Logan International Airport","Boston",BOS,Charleston International Airport,CHS
+"JetBlue Airways","Fort Lauderdale–Hollywood International Airport","Greater Miami",FLL,Charleston International Airport,CHS
+"JetBlue Airways","John F. Kennedy International Airport","New York metropolitan area",JFK,Charleston International Airport,CHS
+"JetBlue Airways","Ronald Reagan Washington National Airport","Washington metropolitan area",DCA,Charleston International Airport,CHS
+"Southwest Airlines","Baltimore–Washington International Airport","Baltimore–Washington metropolitan area",BWI,Charleston International Airport,CHS
+"Southwest Airlines","Midway International Airport","Chicago",MDW,Charleston International Airport,CHS
+"Southwest Airlines","Dallas Love Field","Dallas–Fort Worth–Arlington",DAL,Charleston International Airport,CHS
+"Southwest Airlines","William P. Hobby Airport","Houston–The Woodlands–Sugar Land",HOU,Charleston International Airport,CHS
+"Southwest Airlines","Nashville International Airport","Nashville, Tennessee",BNA,Charleston International Airport,CHS
+"Southwest Airlines","Denver International Airport","Denver",DEN,Charleston International Airport,CHS
+"Southwest Airlines","St. Louis Lambert International Airport","Greater St. Louis",STL,Charleston International Airport,CHS
+"United Airlines","Newark Liberty International Airport","New Jersey",EWR,Charleston International Airport,CHS
+"United Airlines","O'Hare International Airport","Chicago",ORD,Charleston International Airport,CHS
+"United Airlines","Washington Dulles International Airport","Washington metropolitan area",IAD,Charleston International Airport,CHS
+"United Express","O'Hare International Airport","Chicago",ORD,Charleston International Airport,CHS
+"United Express","George Bush Intercontinental Airport","Greater Houston",IAH,Charleston International Airport,CHS
+"United Express","Newark Liberty International Airport","New Jersey",EWR,Charleston International Airport,CHS
+"United Express","Washington Dulles International Airport","Washington metropolitan area",IAD,Charleston International Airport,CHS
+"United Express","Cleveland Hopkins International Airport","Cleveland",CLE,Charleston International Airport,CHS

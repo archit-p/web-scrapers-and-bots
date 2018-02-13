@@ -1,0 +1,16 @@
+Pre-requisites:
+1. Mozilla Firefox
+  https://www.mozilla.org/en-US/firefox/new/
+2. Python 2.7 installation
+  https://www.python.org/downloads/windows/
+3. Geckodriver
+  (included in the zip file)
+
+Instructions:
+1. First make sure you have all the prerequisites.
+2. To run the script, go to the working directory and run
+	$ python scrape.py
+3. The script will ask you to enter a URL. 
+4. Output is written to the file <airport-name>.csv
+
+Thanks, and enjoy!
