@@ -1,0 +1,24 @@
+/----------------------------------------------------------------------------------------------------/
+/-                                                                                                  -/
+/-                                       Auction Bot                                                -/
+/-                    										   -/
+/----------------------------------------------------------------------------------------------------/
+Please acquaint yourself with running python scripts through the Command Prompt, and in general using the command prompt in Windows.
+Please google/youtube how to do any of these steps.
+If you're unable to do these, we can always have a teamviewer session to fix any issues. 
+Thanks :)
+
+Pre-requisites:
+1. Python installation
+2. Download selenium using pip
+3. Download bs4 through pip
+4. Download lxml through pip
+
+How to run?
+1. Open a command prompt window in the directory where you've extracted the files.
+2. Type in:
+	python scrape.py
+3. The output is found in auction.csv
+
+How to run for a different link?
+Open the file scrape.py and edit the URL inside the file. (Read the comments for more information)
