@@ -1,7 +1,7 @@
 /----------------------------------------------------------------------------------------------------/
 /-                                                                                                  -/
 /-                                       Auction Bot                                                -/
-/-                    										   -/
+/-                    										    -/
 /----------------------------------------------------------------------------------------------------/
 Please acquaint yourself with running python scripts through the Command Prompt, and in general using the command prompt in Windows.
 Please google/youtube how to do any of these steps.
@@ -9,10 +9,16 @@ If you're unable to do these, we can always have a teamviewer session to fix any
 Thanks :)
 
 Pre-requisites:
-1. Python installation
+1. Python 2.7 installation and added python 2.7 to your path.
+	Please check this by typing:
+		 python -V
+	and pressing enter in a command prompt window.
 2. Download selenium using pip
 3. Download bs4 through pip
 4. Download lxml through pip
+5. Firefox installation.
+6. Geckodriver for Firefox.
+	Please download Geckodriver and place inside C:/Python27
 
 How to run?
 1. Open a command prompt window in the directory where you've extracted the files.
