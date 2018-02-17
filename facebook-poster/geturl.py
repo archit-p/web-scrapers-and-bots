@@ -1,10 +1,21 @@
 from selenium import webdriver
 import time
+from selenium.webdriver.firefox.options import Options
 # logic explaining how links work - 
 # 1. Whenever scrape new URLs if URL hasn't been scraped, append it to both history and current file.
 # 2. While using a link read from current file and delete after use.
 
 # make the url using the keywords
+def setup_headless():
+    options = Options()
+    options.add_argument("--headless")
+    return options
+
+def new_browser():
+    options = setup_headless()
+    driver = webdriver.Firefox(firefox_options=options)
+    return driver
+
 def get_url(baseurl, keywords):
     keywords = keywords.replace(' ', '+')
     url = baseurl.format(keywords)
@@ -32,7 +43,7 @@ def write_line_to_file(filename, line):
     fp.close()
 
 def get_links(url):
-    browser = webdriver.Firefox()
+    browser = new_browser()
     browser.get(url)
     titles = browser.find_elements_by_id('video-title')
     links = list()
@@ -41,6 +52,14 @@ def get_links(url):
         links.append(link)
     browser.close()
     return links
+
+def random_link():
+    fp = open('youtube-links.csv', 'r')
+    content = fp.read()
+    links = content.split('\n')
+    i = random.randint(1, len(links))
+    link = links[i]
+    return link
 
 def main():
     # define all the variables
