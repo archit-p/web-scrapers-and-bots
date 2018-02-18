@@ -2554,3 +2554,5 @@ IPDL protocol error: Handler returned error code!
 1518842929523	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1518842930838	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/results?sp=EgIIBA%253D%253D&search_query=what+is+my+name"
 1518842937980	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/results?sp=EgIIBA%253D%253D&search_query=what+is+my+name"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18684, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
