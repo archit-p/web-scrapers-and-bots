@@ -12,7 +12,7 @@ class scraper:
         self.password = 'amazon16189742!'
         self.profile_queue = Queue()
         #default output filename is output.csv
-        self.filename = "output.csv"
+        self.filename = "output3.csv"
         fp = open(self.filename, "w")
         fp.write("Rank,Name,Email,Profile Link\n")
         fp.close()
@@ -55,9 +55,12 @@ class scraper:
     # visit pages one by one
     def handle_list_page(self, page_num):
         url = self.url_gen(page_num)
-        time.sleep(1)
-        self.driver.get(url)
-        time.sleep(1)
+        while(1):
+            try:
+                self.driver.get(url)
+                break
+            except:
+                print("Retrying")
         links = self.driver.find_elements_by_class_name("a-link-normal")
         prof_urls = list()
         for link in links:
@@ -68,16 +71,20 @@ class scraper:
 
     # find profile links in each page
     def handle_list_pages(self):
-        i = 1
+        i = 25
         while i <= 1000:
             self.handle_list_page(i)
+            time.sleep(8)
             i += 1
 
     # visit one profile page and get details from there
     def handle_profile_page(self, profile_url):
-        time.sleep(1)
-        self.driver.get(profile_url)
-        time.sleep(1)
+        while(1):
+            try:
+                self.driver.get(profile_url)
+                break
+            except:
+                print("Retrying")
         innerHTML = self.driver.execute_script("return document.body.innerHTML")
         p = re.compile('"publicEmail":"[a-zA-Z0-9_.]*@[a-zA-Z]+.[a-zA-Z]+"')
         emails = p.findall(innerHTML)
