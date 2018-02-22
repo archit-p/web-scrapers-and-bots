@@ -67,7 +67,7 @@ def write_to_file(details):
     logfile = "log.csv"
 
     logfd = open(logfile, "a+")
-    logfd.write(details['fname'] + "," + details['lname'] + "," + details['zip'] + "," + details['email'] + "," + "\n")
+    logfd.write(details['fname'] + "," + details['lname'] + "," + details['zip'] + "," + details['email'] + "," + details['password'] + "\n")
     logfd.close()
 
 def form_filler():
@@ -76,6 +76,39 @@ def form_filler():
     details = get_details()
     print("Filling form with following details...")
     print(details)
+
+    form_url = "http://bit.ly/2sEhIR8"
+    driver = webdriver.Firefox()
+    driver.get(form_url)
+
+    fname_field = driver.find_element_by_id("first_name")
+    fname_field.send_keys(details['fname'])
+
+    lname_field = driver.find_element_by_id("last_name")
+    lname_field.send_keys(details['lname'])
+
+    email_field = driver.find_element_by_id("email_address")
+    email_field.send_keys(details['email'])
+
+    email_field_2 = driver.find_element_by_id("email_address_retype")
+    email_field_2.send_keys(details['email'])
+
+    pwd_field = driver.find_element_by_id("password")
+    pwd_field.send_keys(details['password'])
+
+    pwd_field_2 = driver.find_element_by_id("password_confirm")
+    pwd_field_2.send_keys(details['password'])
+
+    country = Select(driver.find_element_by_id("country_id"))
+    country.select_by_value("222")
+
+    zip_field = driver.find_element_by_id("postal_code")
+    zip_field.send_keys(details['zip'])
+
+    sbmt_button = driver.find_element_by_id("continue")
+    sbmt_button.click()
+    driver.close()
+
     write_to_file(details)
     print("\n\n-------------------------------------------------------------\n\n")
 
