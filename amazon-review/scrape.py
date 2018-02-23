@@ -2,6 +2,7 @@ from selenium import webdriver
 import re
 import time
 from Queue import Queue
+import bs4
 
 class scraper:
     def __init__(self):
@@ -12,9 +13,9 @@ class scraper:
         self.password = 'amazon16189742!'
         self.profile_queue = Queue()
         #default output filename is output.csv
-        self.filename = "output3.csv"
+        self.filename = "output5.csv"
         fp = open(self.filename, "w")
-        fp.write("Rank,Name,Email,Profile Link\n")
+        fp.write("Rank,Name,Profile Link\n")
         fp.close()
 
     def write_line_to_file(self, line):
@@ -22,8 +23,14 @@ class scraper:
         fp.write(line + "\n")
         fp.close()
 
-    def write_details_to_file(self, rank, name, email, prof_link):
-        line = str(rank) + "," + str(name) + "," + str(email) + "," + str(prof_link)
+    def write_details_to_file(self, rank, name, prof_link):
+        rank = rank.encode("utf8")
+        rank = rank.replace(",", "")
+        name = name.encode("utf8")
+        name = name.replace(",", "")
+        prof_link = prof_link.encode("utf8")
+        prof_link = prof_link.replace(",", "")
+        line = str(rank) + "," + str(name) + "," + str(prof_link)
         self.write_line_to_file(line)
 
     # login into amazon to view the emails
@@ -55,26 +62,34 @@ class scraper:
     # visit pages one by one
     def handle_list_page(self, page_num):
         url = self.url_gen(page_num)
+        baseurl = 'amazon.de'
         while(1):
             try:
                 self.driver.get(url)
                 break
             except:
                 print("Retrying")
-        links = self.driver.find_elements_by_class_name("a-link-normal")
-        prof_urls = list()
-        for link in links:
-            prof_url = link.get_attribute("href")
-            if "name" in prof_url:
-                self.profile_queue.put(prof_url)
-        self.handle_profile_pages()
+        innerHTML = self.driver.execute_script("return document.body.innerHTML")
+        soup = bs4.BeautifulSoup(innerHTML, "lxml")
+        rows = soup.select(".a-bordered tr")
+        i = 2
+        while i <= len(rows)-3:
+            row = rows[i]
+            cols = row.select("td")
+            url = baseurl + row.select(".a-link-normal")[0]['href']
+            rank = cols[0].text.strip()
+            name = cols[2].select("b")[0].text.strip()
+            
+            self.write_details_to_file(rank, name, url)
+            i += 1
 
     # find profile links in each page
     def handle_list_pages(self):
-        i = 25
+        i = 1
         while i <= 1000:
+            print("Working on page " + str(i))
             self.handle_list_page(i)
-            time.sleep(8)
+            time.sleep(2)
             i += 1
 
     # visit one profile page and get details from there
@@ -86,23 +101,27 @@ class scraper:
             except:
                 print("Retrying")
         innerHTML = self.driver.execute_script("return document.body.innerHTML")
-        p = re.compile('"publicEmail":"[a-zA-Z0-9_.]*@[a-zA-Z]+.[a-zA-Z]+"')
+        p = re.compile("[a-zA-Z0-9_.]*@[a-zA-Z]+.[a-zA-Z]+")
         emails = p.findall(innerHTML)
         if emails == [] or emails == '':
             email = 'null'
         else:
+            print("Found " + email)
             email = emails[0]
-            email = email.replace('publicEmail', '')
+            #email = email.replace('publicEmail', '')
             email = email.replace('"', '')
             email = email.strip()
             email = email.replace(':', '')
             email = email.encode('utf8')
-
-        name = self.driver.find_element_by_class_name("a-size-extra-large").text
+        try:
+            name = self.driver.find_element_by_class_name("a-size-extra-large").text
+        except:
+            return
         profile_url = profile_url.encode('utf8')
         name = name.strip()
         name = name.encode('utf8')
-
+        name = name.replace(',', '.')
+        print("Working on " + name)
         try:
             more_btn = self.driver.find_element_by_link_text("See More")
             more_btn.click()
@@ -113,6 +132,8 @@ class scraper:
         rank = rank.replace('Reviewer ranking', '')
         rank = rank.strip()
         rank = rank.encode('utf8')
+        rank = rank.replace(",", "")
+
         self.write_details_to_file(rank, name, email, profile_url)
     # get details from profile pages
     def handle_profile_pages(self):
@@ -121,5 +142,5 @@ class scraper:
             self.handle_profile_page(profile_link)
 
 s = scraper()
-s.login()
+#s.login()
 s.handle_list_pages()
