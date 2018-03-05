@@ -10,7 +10,7 @@ def get_details():
     # url to get fake address
     addr_url = "https://fakena.me/fake-name/"
     # file for emails
-    email_file = "emails.csv"
+    email_file = "details.csv"
 
     # open file and get emails
     emailfd = open(email_file,"r")
@@ -47,10 +47,10 @@ def get_details():
             }
 
     # update the details into the dictionary
-    details['fname'] = name_tr.cssselect("td")[1].text_content().split(' ')[0]
-    details['lname'] = name_tr.cssselect("td")[1].text_content().split(' ')[1]
-    details['email'] = mail[0]
-    details['password'] = mail[1]
+    details['fname'] = mail[0]
+    details['lname'] = mail[1]
+    details['email'] = mail[2]
+    details['password'] = mail[3]
     details['zip'] = zip_tr.cssselect("td")[1].text_content().split(' ')[-1]
 
     # delete the email and resubmit the file
