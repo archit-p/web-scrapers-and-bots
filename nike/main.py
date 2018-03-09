@@ -7,20 +7,6 @@ import string
 from selenium.webdriver.common.proxy import *
 from lxml import html
 
-def get_proxies():
-    print("Getting proxies...")
-    time.sleep(2);
-    proxies = ['35.196.26.166:3128', '50.233.137.37:80', '208.95.62.80:318','50.233.137.33:80']
-    return proxies
-
-def select_proxy(proxies):
-    proxy = proxies[randint(0, len(proxies)-1)]
-    proxy = proxy.split(":")
-    pr = {'ip':'','port':''}
-    pr['ip'] = proxy[0]
-    pr['port'] = proxy[1]
-    return pr
-
 def set_profile(pr):
     profile = webdriver.FirefoxProfile()
     profile.set_preference("network.proxy.type", 1)
@@ -42,7 +28,7 @@ def new_user():
     return user
 
 def gen_dob():
-    year = str(randint(1990,2005))
+    year = str(randint(1980,1996))
     month = randint(1,12)
     if(month < 10):
         month = "0" + str(month)
@@ -133,42 +119,56 @@ def gen_user():
     user['year'] = dob[2]
     user['fname'] = name[0]
     user['lname'] = name[1]
+    print("New user details generated are \n" + str(user))
     return user
 
+def write_to_log(fname, lname, email, password):
+    print("Writing " + email + ":" + password + "to file.")
+    fp = open("log.csv", "a+")
+    fp.write(fname + "," + lname + "," + email + "," + password + "\n");
+    fp.close()
+    return
+
 def main():
-    proxies = get_proxies();
-    baseurl = "https://www.nike.com/in/en_gb/launch/"
-    pr = select_proxy(proxies)
-    num = input("How many accounts?")
+    pr = {'ip':'34.206.205.194','port':'41700'}
+    num = input("How many accounts? ")
+    profile = set_profile(pr)
+    driver = webdriver.Firefox(firefox_profile=profile)
     i = 0
-    while(i < num):
-        profile = set_profile(pr)
-        driver = webdriver.Firefox()
+    while(1):
         user = gen_user()
         try:
             search_url = "https://duckduckgo.com/?q=nike+launch"
             driver.get(search_url)
         except:
-            i -= 1
+            print("Looks like the page is acting weird. RELOADIN'!")
+            num += 1;
             continue
-        div = driver.find_element_by_id("r1-0")
-        link = div.find_element_by_class_name("result__a")
-        link.click()
         try:
-            login = driver.find_element_by_class_name("js-log-in")
+            div = driver.find_element_by_id("r1-0")
+            link = div.find_element_by_class_name("result__a")
+            link.click()
+            time.sleep(2);
+        except:
+            print("Looks like the page is acting weird. RELOADIN'!")
+            num += 1
+            continue
+        try:
+            login = driver.find_element_by_xpath("/html/body/div[3]/div/header/div/div/nav/div[2]/a[1]")
             login.click()
             time.sleep(2)
             signup_btn = driver.find_element_by_link_text("Join now.")
             signup_btn.click()
             time.sleep(2)
         except:
-            i -= 1
-            proxies.remove(pr)
+            print("Looks like the page is acting weird. RELOADIN'!")
+            num += 1
             continue
 
         email_field = driver.find_element_by_name("emailAddress")
         email_field.send_keys(user['email'])
 
+        time.sleep(2);
         password_field = driver.find_element_by_name("password")
         password_field.send_keys(user['password'])
 
@@ -178,18 +178,64 @@ def main():
         lname_field = driver.find_element_by_name("lastName")
         lname_field.send_keys(user['lname'])
 
-        date_select = Select(driver.find_element_by_id("nike-unite-date-id-mm"))
-        date_select.select_by_value(user['month'])
+        month_select = Select(driver.find_element_by_id("nike-unite-date-id-mm"))
+        month_select.select_by_value(user['month'])
 
+        time.sleep(3);
         date_select = Select(driver.find_element_by_id("nike-unite-date-id-dd"))
         date_select.select_by_value(user['date'])
 
-        date_select = Select(driver.find_element_by_id("nike-unite-date-id-yyyy"))
-        date_select.select_by_value(user['year'])
+        time.sleep(2);
+        year_select = Select(driver.find_element_by_id("nike-unite-date-id-yyyy"))
+        year_select.select_by_value(user['year'])
 
-        gender = driver.find_element_by_xpath("/html/body/div[10]/div[2]/div[1]/div/div[1]/div/div[2]/form/div[8]/ul/li[1]/span")
+        time.sleep(2);
+        spans = driver.find_elements_by_tag_name("span")
+        rand = randint(0,1000)
+        for span in spans:
+            if(rand%2 == 0):
+                if "Male" in span.text:
+                    gender = span
+                else:
+                    continue
+            else:
+                if "Female" in span.text:
+                    gender = span
+                else:
+                    continue
+
         gender.click()
         gender.click()
+
+        submit = driver.find_element_by_class_name("joinSubmit")
+        submit_btn = submit.find_element_by_tag_name("input")
+        submit_btn.click()
+        submit_btn.click()
+        
+        while(1):
+            try:
+                update_select = driver.find_element_by_id("nike-unite-date-id-yyyy")
+                try:
+                    time.sleep(2);
+                    rand = randint(1000, 100000);
+                    if(rand%2 == 1):
+                        month_select.select_by_value(str(int(user['month']) + randint(-3,0)))
+                    else:
+                        date_select.select_by_value(str(int(user['date']) + randint(-4,2)))
+                    update_select.click()
+                    gender.click()
+                    submit_btn.click()
+                    submit_btn.click()
+                except:
+                    continue
+            except:
+                print("Done "+ str(i+1) + " accounts!")
+                break
+        i += 1
+        if(i == num):
+            break;
+        write_to_log(user['fname'], user['lname'], user['email'], user['password'])
+        time.sleep(15);
 
 if __name__ == "__main__":
     main()
