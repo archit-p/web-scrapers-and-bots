@@ -10,7 +10,7 @@ class scraper:
         # enter your amazon email below
         self.email = 'pandey.archit7@gmail.com'
         # enter your amazon password below
-        self.password = 'amazon16189742!'
+        self.password = ''
         self.profile_queue = Queue()
         #default output filename is output.csv
         self.filename = "output5.csv"
